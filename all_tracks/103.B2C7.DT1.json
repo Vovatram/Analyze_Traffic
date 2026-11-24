@@ -1,0 +1,2776 @@
+{
+  "mounting_height": 6,
+  "rotateX": 0,
+  "rotateY": 0,
+  "rotateZ": -2,
+  "type": "UMRR-13",
+  "type_name": {
+    "code": "UMRR-13",
+    "name": {
+      "en": "TMS.13",
+      "es": "TMS.13",
+      "ru": "TMS.13"
+    }
+  },
+  "xM": 0,
+  "yM": 0,
+  "road_sensor_lanes": [
+    {
+      "center": 4,
+      "direction": 1,
+      "lane_index": 0,
+      "length": 400,
+      "range_offset": 0,
+      "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+      "splines": [
+        [
+          0,
+          4
+        ],
+        [
+          200,
+          4
+        ],
+        [
+          400,
+          4
+        ]
+      ],
+      "splines_count": 9,
+      "width": 8,
+      "road_sensor_lanes_id": "3d476981-964a-4de3-981e-188610b376a2",
+      "active": false,
+      "index_number": 1,
+      "is_dataware": true,
+      "lane_draw_index": 0,
+      "old_width": 8,
+      "dividing_line": false,
+      "align": "horizontal",
+      "ln": 400,
+      "zones": [
+        {
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "zone_index": 0,
+          "lane_index": 0,
+          "width": 8,
+          "direction": 1,
+          "classes": 15,
+          "segments_count": 1,
+          "segments": [
+            {
+              "x": 20,
+              "y": 8,
+              "index": 0
+            },
+            {
+              "x": 45,
+              "y": 8,
+              "index": 1
+            }
+          ],
+          "zone_draw_index": 0,
+          "zone_order": 1,
+          "drag_x": 0,
+          "drag_y": 0,
+          "rotation": 0,
+          "road_sensor_zones_id": "095f1777-8423-45ba-b835-7636eef9725a",
+          "roads_id": "ef1909d8-189b-4e84-9389-5b196f4b9352",
+          "cars": [],
+          "zone_offset": 20,
+          "length": 25,
+          "blink": false,
+          "features": [
+            "volume",
+            "occupancy",
+            "avg_speed",
+            "speed85",
+            "headway",
+            "gap"
+          ],
+          "fragments_quantity": 1,
+          "trigger": {
+            "road_sensor_triggers_id": null,
+            "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+            "zone_id": "095f1777-8423-45ba-b835-7636eef9725a",
+            "trigger_index": null,
+            "lane_index": 0,
+            "zone_index": 0,
+            "relay_id": null,
+            "predefined_type": null,
+            "min_time": null,
+            "max_time": null,
+            "min_range": null,
+            "max_range": null,
+            "min_speed": null,
+            "max_speed": null,
+            "classes": 15
+          },
+          "zone_lane_order": 1
+        }
+      ]
+    }
+  ],
+  "road_sensor_zones": [
+    {
+      "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+      "zone_index": 0,
+      "lane_index": 0,
+      "width": 8,
+      "direction": 1,
+      "classes": 15,
+      "segments_count": 1,
+      "segments": [
+        {
+          "x": 20,
+          "y": 25,
+          "index": 0
+        },
+        {
+          "x": 20,
+          "y": 25,
+          "index": 1
+        }
+      ],
+      "zone_draw_index": 0,
+      "zone_order": 1,
+      "drag_x": 0,
+      "drag_y": 0,
+      "rotation": 0,
+      "road_sensor_zones_id": "095f1777-8423-45ba-b835-7636eef9725a",
+      "roads_id": "ef1909d8-189b-4e84-9389-5b196f4b9352",
+      "cars": [],
+      "zone_offset": 20,
+      "length": 25,
+      "blink": false,
+      "features": [
+        "volume",
+        "occupancy",
+        "avg_speed",
+        "speed85",
+        "headway",
+        "gap"
+      ],
+      "fragments_quantity": 1,
+      "trigger": {
+        "road_sensor_triggers_id": null,
+        "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+        "zone_id": "095f1777-8423-45ba-b835-7636eef9725a",
+        "trigger_index": null,
+        "lane_index": 0,
+        "zone_index": 0,
+        "relay_id": null,
+        "predefined_type": null,
+        "min_time": null,
+        "max_time": null,
+        "min_range": null,
+        "max_range": null,
+        "min_speed": null,
+        "max_speed": null,
+        "classes": 15
+      },
+      "zone_lane_order": 1
+    }
+  ],
+  "layer_rotation": 270,
+  "offset_x": 0,
+  "offset_y": 8.8,
+  "hold_time": 100,
+  "sensitivity": 4,
+  "sensitivity_two": 4,
+  "sensor_mode": 1,
+  "ntp_server": "",
+  "blind_zone": 0,
+  "blind_zone2": 65,
+  "blind_zone_right": 1,
+  "blind_zone_left": 1,
+  "sensor_pch": 10,
+  "sensor_road_type": 0,
+  "sensor_road_direction": 0,
+  "sensor_ip": "1.1.1.1",
+  "firmware": "1.1.4",
+  "adapter_v": "14.9.9",
+  "port": 8008,
+  "command_port": 6006,
+  "calibration_factor": 0,
+  "bezier_curves": 0,
+  "frequency_band": 77,
+  "road_sensor_params": {
+    "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+    "x": 0,
+    "y": 0,
+    "z": 6,
+    "overground": 6,
+    "xy": -2,
+    "xz": 0,
+    "yz": 0,
+    "offset_x": 0,
+    "offset_y": 8.8,
+    "antenna_modification": 35,
+    "layer_rotation": 270
+  },
+  "objects": [
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000040",
+          "gps_longitude": "-0.000538",
+          "heading": 2.17,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 36.74,
+          "obj_width": 1.8,
+          "point_x": 59.8,
+          "point_y": -4.5,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:38.20",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000041",
+          "gps_longitude": "-0.000547",
+          "heading": 2.3,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 36.75,
+          "obj_width": 1.8,
+          "point_x": 60.8,
+          "point_y": -4.6,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:38.31",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000042",
+          "gps_longitude": "-0.000557",
+          "heading": 2.42,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 37.11,
+          "obj_width": 1.8,
+          "point_x": 61.9,
+          "point_y": -4.7,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:38.42",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000042",
+          "gps_longitude": "-0.000566",
+          "heading": 2.54,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 37.47,
+          "obj_width": 1.8,
+          "point_x": 62.9,
+          "point_y": -4.7,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:38.52",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000043",
+          "gps_longitude": "-0.000576",
+          "heading": 2.66,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 37.47,
+          "obj_width": 1.8,
+          "point_x": 64,
+          "point_y": -4.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:38.77",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000043",
+          "gps_longitude": "-0.000585",
+          "heading": 2.78,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 37.8,
+          "obj_width": 1.8,
+          "point_x": 65,
+          "point_y": -4.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:38.77",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000044",
+          "gps_longitude": "-0.000595",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 37.8,
+          "obj_width": 1.8,
+          "point_x": 66.1,
+          "point_y": -4.9,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:38.81",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000044",
+          "gps_longitude": "-0.000604",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 37.8,
+          "obj_width": 1.8,
+          "point_x": 67.1,
+          "point_y": -4.9,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:38.91",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000044",
+          "gps_longitude": "-0.000614",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 51,
+          "obj_length": 4.5,
+          "obj_speed": 37.8,
+          "obj_width": 1.8,
+          "point_x": 68.2,
+          "point_y": -4.9,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:39.00",
+          "uuid": "70d5343c-d6ff-44bb-8870-a470cb6d3294"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000004",
+          "gps_longitude": "-0.000145",
+          "heading": 2.55,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 3,
+          "obj_speed": 54.04,
+          "obj_width": 1.8,
+          "point_x": 16.1,
+          "point_y": -0.4,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:39.60",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000004",
+          "gps_longitude": "-0.000155",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 54,
+          "obj_width": 1.8,
+          "point_x": 17.2,
+          "point_y": -0.4,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:39.73",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000005",
+          "gps_longitude": "-0.000167",
+          "heading": 1.19,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 54.73,
+          "obj_width": 1.8,
+          "point_x": 18.5,
+          "point_y": -0.5,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:39.82",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000005",
+          "gps_longitude": "-0.000179",
+          "heading": 1.25,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 55.09,
+          "obj_width": 1.8,
+          "point_x": 19.9,
+          "point_y": -0.5,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:39.92",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "PVR",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.17",
+          "zone": 1,
+          "lane": 0,
+          "measure_line": 0,
+          "obj_id": 52,
+          "direction": 1,
+          "obj_number": 0,
+          "obj_class": 0,
+          "obj_length": 4.5,
+          "obj_speed": 55.8,
+          "obj_speed_mps": 15.5,
+          "heading": 358.61
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000005",
+          "gps_longitude": "-0.000192",
+          "heading": 1.39,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 55.81,
+          "obj_width": 1.8,
+          "point_x": 21.3,
+          "point_y": -0.6,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.17",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000006",
+          "gps_longitude": "-0.000205",
+          "heading": 1.33,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 56.53,
+          "obj_width": 1.8,
+          "point_x": 22.8,
+          "point_y": -0.7,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.17",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000007",
+          "gps_longitude": "-0.000220",
+          "heading": 0.93,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 57.96,
+          "obj_width": 1.8,
+          "point_x": 24.4,
+          "point_y": -0.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.22",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000009",
+          "gps_longitude": "-0.000233",
+          "heading": 2.1,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 58.71,
+          "obj_width": 1.8,
+          "point_x": 25.9,
+          "point_y": -1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.33",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000010",
+          "gps_longitude": "-0.000247",
+          "heading": 3.11,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 59.47,
+          "obj_width": 1.8,
+          "point_x": 27.4,
+          "point_y": -1.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.41",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000012",
+          "gps_longitude": "-0.000261",
+          "heading": 1.89,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 60.15,
+          "obj_width": 1.8,
+          "point_x": 29,
+          "point_y": -1.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.52",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000013",
+          "gps_longitude": "-0.000276",
+          "heading": 2,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 61.23,
+          "obj_width": 1.8,
+          "point_x": 30.7,
+          "point_y": -1.4,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.61",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000014",
+          "gps_longitude": "-0.000293",
+          "heading": 2.09,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 62.32,
+          "obj_width": 1.8,
+          "point_x": 32.5,
+          "point_y": -1.6,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.71",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000014",
+          "gps_longitude": "-0.000307",
+          "heading": 0.87,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 62.28,
+          "obj_width": 1.8,
+          "point_x": 34.1,
+          "point_y": -1.6,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.82",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000014",
+          "gps_longitude": "-0.000322",
+          "heading": 0.91,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 63.36,
+          "obj_width": 1.8,
+          "point_x": 35.8,
+          "point_y": -1.6,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:40.93",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000015",
+          "gps_longitude": "-0.000338",
+          "heading": 0.94,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 64.08,
+          "obj_width": 1.8,
+          "point_x": 37.6,
+          "point_y": -1.7,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.02",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000015",
+          "gps_longitude": "-0.000355",
+          "heading": 0.98,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 65.17,
+          "obj_width": 1.8,
+          "point_x": 39.4,
+          "point_y": -1.7,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.11",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000015",
+          "gps_longitude": "-0.000371",
+          "heading": 1.01,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 65.89,
+          "obj_width": 1.8,
+          "point_x": 41.2,
+          "point_y": -1.7,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.37",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000015",
+          "gps_longitude": "-0.000388",
+          "heading": 1.04,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 43.1,
+          "point_y": -1.7,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.37",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000404",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 44.9,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.41",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000421",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 46.8,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.51",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000438",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 48.7,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.60",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000454",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 50.5,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.73",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000472",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 52.4,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.82",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000488",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 54.2,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:41.92",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000505",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 56.1,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:42.03",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000522",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 58,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:42.12",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000538",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 59.8,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:42.21",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000555",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 61.7,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:42.31",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000016",
+          "gps_longitude": "-0.000571",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 52,
+          "obj_length": 4.5,
+          "obj_speed": 66.6,
+          "obj_width": 1.8,
+          "point_x": 63.5,
+          "point_y": -1.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:56:42.41",
+          "uuid": "b3feedf2-0cbb-4b8d-8b7f-8534f0275464"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "0.000001",
+          "gps_longitude": "-0.000131",
+          "heading": 2.11,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 2.6,
+          "obj_speed": 43.58,
+          "obj_width": 1.8,
+          "point_x": 14.6,
+          "point_y": 0.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:57.72",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "0.000001",
+          "gps_longitude": "-0.000139",
+          "heading": 1.28,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 41.77,
+          "obj_width": 1.8,
+          "point_x": 15.5,
+          "point_y": 0.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:57.81",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "0.000001",
+          "gps_longitude": "-0.000148",
+          "heading": 1.32,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 40.69,
+          "obj_width": 1.8,
+          "point_x": 16.4,
+          "point_y": 0.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:57.91",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "0.000000",
+          "gps_longitude": "-0.000157",
+          "heading": 1.63,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 40.33,
+          "obj_width": 1.8,
+          "point_x": 17.4,
+          "point_y": 0,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.02",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "0.000000",
+          "gps_longitude": "-0.000167",
+          "heading": 1.57,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 40.69,
+          "obj_width": 1.8,
+          "point_x": 18.5,
+          "point_y": 0,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.11",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000001",
+          "gps_longitude": "-0.000177",
+          "heading": 3.26,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 41.1,
+          "obj_width": 1.8,
+          "point_x": 19.7,
+          "point_y": -0.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.24",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "PVR",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.32",
+          "zone": 1,
+          "lane": 0,
+          "measure_line": 0,
+          "obj_id": 53,
+          "direction": 1,
+          "obj_number": 0,
+          "obj_class": 0,
+          "obj_length": 4.5,
+          "obj_speed": 41.4,
+          "obj_speed_mps": 11.5,
+          "heading": 357.82
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000002",
+          "gps_longitude": "-0.000187",
+          "heading": 2.18,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 41.43,
+          "obj_width": 1.8,
+          "point_x": 20.8,
+          "point_y": -0.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.32",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000004",
+          "gps_longitude": "-0.000198",
+          "heading": 3.55,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 42.55,
+          "obj_width": 1.8,
+          "point_x": 22,
+          "point_y": -0.4,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.41",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000005",
+          "gps_longitude": "-0.000208",
+          "heading": 2.03,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 42.86,
+          "obj_width": 1.8,
+          "point_x": 23.1,
+          "point_y": -0.5,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.51",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000006",
+          "gps_longitude": "-0.000219",
+          "heading": 1.55,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.21,
+          "obj_width": 1.8,
+          "point_x": 24.3,
+          "point_y": -0.7,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.63",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000007",
+          "gps_longitude": "-0.000230",
+          "heading": 0.98,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.57,
+          "obj_width": 1.8,
+          "point_x": 25.5,
+          "point_y": -0.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.71",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000008",
+          "gps_longitude": "-0.000240",
+          "heading": 0.84,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 26.7,
+          "point_y": -0.9,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.82",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000009",
+          "gps_longitude": "-0.000252",
+          "heading": 0.21,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 28,
+          "point_y": -1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:58.92",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000009",
+          "gps_longitude": "-0.000262",
+          "heading": 0.86,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 29.1,
+          "point_y": -1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.01",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000010",
+          "gps_longitude": "-0.000273",
+          "heading": 0.39,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.56,
+          "obj_width": 1.8,
+          "point_x": 30.3,
+          "point_y": -1.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.11",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000010",
+          "gps_longitude": "-0.000284",
+          "heading": 0.47,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.56,
+          "obj_width": 1.8,
+          "point_x": 31.5,
+          "point_y": -1.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.21",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000010",
+          "gps_longitude": "-0.000294",
+          "heading": 0.5,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.56,
+          "obj_width": 1.8,
+          "point_x": 32.7,
+          "point_y": -1.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.32",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000010",
+          "gps_longitude": "-0.000305",
+          "heading": 0.52,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 33.9,
+          "point_y": -1.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.41",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000010",
+          "gps_longitude": "-0.000317",
+          "heading": 0.35,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 35.2,
+          "point_y": -1.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.54",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000328",
+          "heading": 0.36,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 36.4,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.63",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000338",
+          "heading": 0.38,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 37.6,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.72",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000349",
+          "heading": 0.39,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 38.8,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.81",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000361",
+          "heading": 0.41,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 43.92,
+          "obj_width": 1.8,
+          "point_x": 40.1,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:57:59.91",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000372",
+          "heading": 0.42,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 41.3,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.02",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000383",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 42.5,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.11",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000394",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 43.8,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.21",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000405",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 45,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.32",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000416",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 46.2,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.41",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000427",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 47.5,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.52",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000438",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 48.7,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.63",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000449",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 49.9,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.73",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000460",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 51.1,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.82",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000472",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 52.4,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:00.93",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000482",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 53.6,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.01",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000493",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 54.8,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.12",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000505",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 56.1,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.21",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000516",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 57.3,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.31",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000526",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 58.5,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.42",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000538",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 59.8,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.51",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000549",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 61,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.64",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000560",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 62.2,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.71",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000571",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 63.5,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.81",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000582",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 53,
+          "obj_length": 4.5,
+          "obj_speed": 44.28,
+          "obj_width": 1.8,
+          "point_x": 64.7,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:01.92",
+          "uuid": "f1bea454-685c-4968-bc74-c3c40066f355"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000031",
+          "gps_longitude": "-0.000581",
+          "heading": 353.83,
+          "lane": 0,
+          "obj_id": 54,
+          "obj_length": 4.5,
+          "obj_speed": 52.48,
+          "obj_width": 1.8,
+          "point_x": 64.6,
+          "point_y": -3.4,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 09:58:38.42",
+          "uuid": "090eeab8-92b8-4905-ab9c-58031a0340c8"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000032",
+          "gps_longitude": "-0.000569",
+          "heading": 353.67,
+          "lane": 0,
+          "obj_id": 55,
+          "obj_length": 4.5,
+          "obj_speed": 40.19,
+          "obj_width": 1.8,
+          "point_x": 63.2,
+          "point_y": -3.6,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:02.02",
+          "uuid": "e5a746c1-dd6b-4314-816a-d47a57c6a3d1"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000031",
+          "gps_longitude": "-0.000579",
+          "heading": 353.3,
+          "lane": 0,
+          "obj_id": 55,
+          "obj_length": 4.5,
+          "obj_speed": 40.23,
+          "obj_width": 1.8,
+          "point_x": 64.3,
+          "point_y": -3.5,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:02.12",
+          "uuid": "e5a746c1-dd6b-4314-816a-d47a57c6a3d1"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "0.000001",
+          "gps_longitude": "-0.000162",
+          "heading": 2.06,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 50.79,
+          "obj_width": 1.8,
+          "point_x": 18,
+          "point_y": 0.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:17.83",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "0.000000",
+          "gps_longitude": "-0.000174",
+          "heading": 1.91,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 50.78,
+          "obj_width": 1.8,
+          "point_x": 19.3,
+          "point_y": 0,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:17.92",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "PVR",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.02",
+          "zone": 1,
+          "lane": 0,
+          "measure_line": 0,
+          "obj_id": 56,
+          "direction": 1,
+          "obj_number": 0,
+          "obj_class": 0,
+          "obj_length": 4.5,
+          "obj_speed": 50.76,
+          "obj_speed_mps": 14.1,
+          "heading": 355.76
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000001",
+          "gps_longitude": "-0.000186",
+          "heading": 4.24,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 50.89,
+          "obj_width": 1.8,
+          "point_x": 20.7,
+          "point_y": -0.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.02",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000003",
+          "gps_longitude": "-0.000199",
+          "heading": 2.8,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 51.54,
+          "obj_width": 1.8,
+          "point_x": 22.1,
+          "point_y": -0.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.13",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000005",
+          "gps_longitude": "-0.000212",
+          "heading": 1.76,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 52.58,
+          "obj_width": 1.8,
+          "point_x": 23.5,
+          "point_y": -0.5,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.23",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000005",
+          "gps_longitude": "-0.000226",
+          "heading": 0.98,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 54,
+          "obj_width": 1.8,
+          "point_x": 25.1,
+          "point_y": -0.6,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.32",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000007",
+          "gps_longitude": "-0.000239",
+          "heading": 0.91,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 55.08,
+          "obj_width": 1.8,
+          "point_x": 26.6,
+          "point_y": -0.8,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.41",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000008",
+          "gps_longitude": "-0.000253",
+          "heading": 0.84,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 56.16,
+          "obj_width": 1.8,
+          "point_x": 28.1,
+          "point_y": -0.9,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.52",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000009",
+          "gps_longitude": "-0.000268",
+          "heading": 0.62,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 57.6,
+          "obj_width": 1.8,
+          "point_x": 29.8,
+          "point_y": -1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.63",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000010",
+          "gps_longitude": "-0.000283",
+          "heading": 0.65,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 58.32,
+          "obj_width": 1.8,
+          "point_x": 31.4,
+          "point_y": -1.1,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.73",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000297",
+          "heading": 0.44,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 59.04,
+          "obj_width": 1.8,
+          "point_x": 33,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.82",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000312",
+          "heading": 0.46,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 59.76,
+          "obj_width": 1.8,
+          "point_x": 34.7,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:18.92",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000328",
+          "heading": 0.48,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.84,
+          "obj_width": 1.8,
+          "point_x": 36.4,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.03",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000012",
+          "gps_longitude": "-0.000343",
+          "heading": 0.5,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 61.56,
+          "obj_width": 1.8,
+          "point_x": 38.1,
+          "point_y": -1.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.12",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000012",
+          "gps_longitude": "-0.000358",
+          "heading": 0.52,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 62.28,
+          "obj_width": 1.8,
+          "point_x": 39.8,
+          "point_y": -1.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.21",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000012",
+          "gps_longitude": "-0.000373",
+          "heading": 0.53,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 63,
+          "obj_width": 1.8,
+          "point_x": 41.5,
+          "point_y": -1.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.32",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000012",
+          "gps_longitude": "-0.000388",
+          "heading": 359.79,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 61.56,
+          "obj_width": 1.8,
+          "point_x": 43.1,
+          "point_y": -1.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.42",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000012",
+          "gps_longitude": "-0.000403",
+          "heading": 359.78,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 61.2,
+          "obj_width": 1.8,
+          "point_x": 44.8,
+          "point_y": -1.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.54",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000012",
+          "gps_longitude": "-0.000419",
+          "heading": 359.77,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.84,
+          "obj_width": 1.8,
+          "point_x": 46.5,
+          "point_y": -1.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.62",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000012",
+          "gps_longitude": "-0.000434",
+          "heading": 359.75,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.84,
+          "obj_width": 1.8,
+          "point_x": 48.2,
+          "point_y": -1.3,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.72",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000449",
+          "heading": 359.74,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.48,
+          "obj_width": 1.8,
+          "point_x": 49.9,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.83",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000464",
+          "heading": 359.73,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.12,
+          "obj_width": 1.8,
+          "point_x": 51.6,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:19.92",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000480",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.12,
+          "obj_width": 1.8,
+          "point_x": 53.3,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:20.03",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000495",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.12,
+          "obj_width": 1.8,
+          "point_x": 55,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:20.13",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000509",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.12,
+          "obj_width": 1.8,
+          "point_x": 56.6,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:20.22",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000525",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.12,
+          "obj_width": 1.8,
+          "point_x": 58.3,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:20.32",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000540",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.12,
+          "obj_width": 1.8,
+          "point_x": 60,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:20.43",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000555",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.12,
+          "obj_width": 1.8,
+          "point_x": 61.7,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:20.54",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    },
+    {
+      "name": "OBJECTS",
+      "protocol_version": "1.0",
+      "rows": 1,
+      "rows_data": [
+        {
+          "gps_latitude": "-0.000011",
+          "gps_longitude": "-0.000571",
+          "heading": 360,
+          "lane": 0,
+          "obj_id": 56,
+          "obj_length": 4.5,
+          "obj_speed": 60.12,
+          "obj_width": 1.8,
+          "point_x": 63.4,
+          "point_y": -1.2,
+          "sensor_id": "17ee2a6e-e43a-48d8-8c29-c83ae5b984b7",
+          "time": "2025-05-26 10:00:20.64",
+          "uuid": "e35052c3-b3f1-457c-8b5c-8d88719976ab"
+        }
+      ]
+    }
+  ],
+  "sensor_type": {
+    "type": "UMRR-13",
+    "type_name": {
+      "code": "UMRR-13",
+      "name": {
+        "en": "TMS.13",
+        "es": "TMS.13",
+        "ru": "TMS.13"
+      }
+    }
+  }
+}

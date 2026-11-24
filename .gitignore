@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+results/
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
+Students_2026_01.ipynb
