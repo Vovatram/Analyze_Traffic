@@ -1,57 +1,70 @@
-# Semester 3 practice: traffic data analysis
+# Практические работы за 3-й семестр: анализ транспортного потока
 
-Completed practice tasks using Python, pandas, and Jupyter Notebook. The notebook keeps the original Russian task statements and existing solutions, with clearer sections and portable file paths.
+Практические задания и решения на Python с использованием pandas и Jupyter Notebook. В ноутбуке сохранены исходные условия задач на русском языке и существующие решения. Код разделён на тематические разделы, а пути к файлам заданы относительно папки проекта.
 
-## Practice work
+## Практические работы
 
-| Notebook | Tasks |
+| Ноутбук | Содержание |
 | --- | --- |
-| [Practice 1: traffic analysis](notebooks/practice_01_traffic_analysis.ipynb) | Dataset inspection, outlier checks, traffic speed and V85 by lane, and additional vehicle distance calculations |
+| [Практическая работа № 1: анализ транспортного потока](notebooks/practice_01_traffic_analysis.ipynb) | Изучение набора данных, поиск выбросов, расчёт средней скорости и V85 по полосам, дополнительные расчёты расстояний между автомобилями |
 
-## Files
+V85 — 85-й процентиль скорости: значение, которое не превышают 85% наблюдаемых скоростей.
 
-- `notebooks/`: organized practice notebooks.
-- `all_tracks/`: supplied JSON recordings and previously generated text tables.
-- `visualdt.py`: desktop viewer for the supplied tables, charts, distributions, and road tracks.
-- `results/`: new exports created when running the notebook; excluded from Git.
+## Структура проекта
 
-## Run
+- `notebooks/` — ноутбуки с условиями задач и решениями.
+- `all_tracks/` — исходные записи в формате JSON и ранее сформированные текстовые таблицы.
+- `visualdt.py` — приложение для просмотра таблиц, графиков, распределений и траекторий автомобилей.
+- `requirements.txt` — зависимости Python.
+- `results/` — результаты, создаваемые при выполнении ноутбука. Эта папка исключена из Git.
 
-Use Python 3.10 or newer. From the repository folder:
+## Установка и запуск
+
+Необходим Python версии 3.10 или новее. Выполняйте команды из папки проекта.
+
+Создайте виртуальное окружение:
 
 ```sh
 python -m venv .venv
 ```
 
-Activate the environment on Windows PowerShell:
+Активируйте его в Windows PowerShell:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-Or on macOS/Linux:
+В macOS или Linux:
 
 ```sh
 source .venv/bin/activate
 ```
 
-Install the dependencies and open Jupyter:
+Установите зависимости и запустите JupyterLab:
 
 ```sh
 python -m pip install -r requirements.txt
 python -m jupyterlab
 ```
 
-Open `notebooks/practice_01_traffic_analysis.ipynb` and run its cells in order. The final cell processes all supplied JSON recordings and writes new tables to `results/`; this can take time. Notebook outputs are cleared so that saved results are not presented as results of the reorganized code.
+Откройте `notebooks/practice_01_traffic_analysis.ipynb` и последовательно выполните ячейки. Последняя ячейка обрабатывает все исходные JSON-файлы и сохраняет новые таблицы в `results/`. Обработка может занять некоторое время.
 
-To open the desktop viewer:
+Сохранённые выводы ячеек очищены. Чтобы получить результаты, выполните ноутбук в своём окружении.
+
+## Просмотр данных
+
+Запустите приложение:
 
 ```sh
 python visualdt.py
 ```
 
-The viewer initially reads the existing files in `all_tracks/`. To inspect newly generated tables, set its `DATA_DIR` to the repository's `results/` folder. The viewer requires Tkinter, included with the standard Windows Python installer; some Linux installations require a separate system Tkinter package.
+По умолчанию оно использует готовые файлы из `all_tracks/`. Для просмотра новых результатов измените значение `DATA_DIR` в `visualdt.py`, указав папку `results/`.
 
-## Scope
+Для приложения нужен Tkinter. Он входит в стандартный установщик Python для Windows. В некоторых дистрибутивах Linux его нужно установить отдельно.
 
-The practice solution's numerical algorithms are preserved. Organizing the work does not establish that its formulas or results are correct. The original notebook, `Students_2026_01.ipynb`, is kept locally as an unchanged reference and is excluded from this repository's upload.
+## Исходное решение
+
+Алгоритмы расчётов сохранены из исходной практической работы. Проверены структура ноутбука, синтаксис Python и корректность JSON-файлов; полное выполнение расчётов не проверялось.
+
+Исходный ноутбук `Students_2026_01.ipynb` сохранён локально без изменений и исключён из загрузки в репозиторий.
